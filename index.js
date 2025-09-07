@@ -2,13 +2,8 @@ import {propertyForSaleArr} from "./properties/propertyForSaleArr.js"
 import {placeholderPropertyObj} from "./properties/placeholderPropertyObj.js"
 
 let renderHtml = []
-let renderHtml1 = []
-
-
 function getPropertyHtml(x, y=undefined) {
- 
 if(x) {
-  
 return x.map((addTotal) =>
 renderHtml =`
 <section class="card">
