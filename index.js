@@ -12,7 +12,7 @@ if(x) {
 return x.map((addTotal) =>
 renderHtml =`
 <section class="card">
-    <img src="./images/${addTotal.image}">
+    <img src="/images/${addTotal.image}">
     <div class="card-right">
         <h2>${addTotal.propertyLocation}</h2>
         <h3>${addTotal.priceGBP}</h3>
@@ -27,7 +27,7 @@ renderHtml =`
 let [{propertyLocation, priceGBP, roomsM2,comment, image}] =y
 return renderHtml =`
 <section class="card">
-    <img src="./images/${image}">
+    <img src="/images/${image}">
     <div class="card-right">
         <h2>${propertyLocation}</h2>
         <h3>${priceGBP}</h3>
