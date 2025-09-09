@@ -1,3 +1,4 @@
+
 export const propertyForSaleArr = [
     {
         propertyLocation: 'Kensington, London',
