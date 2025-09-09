@@ -7,7 +7,7 @@ if(x) {
 return x.map((addTotal) =>
 renderHtml =`
 <section class="card">
-    <img src="${addTotal.image}">
+    <img src="./${addTotal.image}">
     <div class="card-right">
         <h2>${addTotal.propertyLocation}</h2>
         <h3>${addTotal.priceGBP}</h3>
