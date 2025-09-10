@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    padding: 12px;
 }
 
 .card {
@@ -18,7 +18,7 @@ body {
     box-shadow: 0px 0px 10px 1px #999;
     margin: 0 20px 15px 20px;
     border-radius: 5px;
-    max-height: 80px;
+    max-height: 180px;
 }
 
 .card img {
