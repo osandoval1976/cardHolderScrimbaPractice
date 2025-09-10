@@ -2,7 +2,7 @@ import {propertyForSaleArr} from "./properties/propertyForSaleArr.js"
 import {placeholderPropertyObj} from "./properties/placeholderPropertyObj.js"
 
 let renderHtml = []
-function getPropertyHtml(x, y=[placeholderPropertyObj]) {
+function getPropertyHtml(x, y=undefined) {
 if(x===0) {
 return x.map((addTotal) =>
 renderHtml =`
