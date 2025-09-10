@@ -17,7 +17,7 @@ renderHtml =`
 </section> `
 
 ).join(' ')
-}else if(x===undefined){
+}else if(y){
     
 let [{propertyLocation, priceGBP, roomsM2,comment, image}] =y
 return renderHtml =`
