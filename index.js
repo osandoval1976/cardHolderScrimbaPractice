@@ -3,7 +3,7 @@ import {placeholderPropertyObj} from "./properties/placeholderPropertyObj.js"
 
 let renderHtml = []
 function getPropertyHtml(x, y=[placeholderPropertyObj]) {
-if(y) {
+if(x===y) {
 return x.map((addTotal) =>
 renderHtml =`
 <section class="card">
@@ -17,7 +17,7 @@ renderHtml =`
 </section> `
 
 ).join(' ')
-}else if(y===undefined){
+}else if(x===undefined){
     
 let [{propertyLocation, priceGBP, roomsM2,comment, image}] =y
 return renderHtml =`
